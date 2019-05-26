@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQAciBTBCt3Rdbj1S0Wt/LFzANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRmYTAxZWRlNS04YWE0LTRjNzgtYmRmOC05NjZkN2QxYmE4MTgw
+    HhcNMTkwNTI2MTIzNjIxWhcNMjQwNTI0MTMzNjIxWjAvMS0wKwYDVQQDEyRmYTAx
+    ZWRlNS04YWE0LTRjNzgtYmRmOC05NjZkN2QxYmE4MTgwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCV2z1SxQ4fKZSyjjHuZz1K/EX1rzbuyJ6OrNhRrdCP
+    hkPf5nupNjzGrM0n+hwA/URxFfwzPQQzL3UtNT+ui2PrY/cb6iRe7dBXqBcRYZMe
+    FJD/+xQ2IEoF+jVMV1lmTfnX+BPGNodb0X1oP50khvHYU+S8MKC1R4SNB1ZVA9Fl
+    ibovleCs0Evn8iCH7DsK1ajMqXggnPa4c/QTMgs0+FH6MGz8K8b1K0MHYXOreoc3
+    cK0Z8KEl1EGtVvj/iDoKKDOjidmCSu8YumF3vMIFqrQHa4Ax9zTvoAYUr2Gns6CI
+    8tmLhfd/1pV4LSKxDkM3KlcE9Zge6oyR6vA+dWiroff5AgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBw
+    Y/D3H/UYPu+9RJ85vymdX3qQrd66Zxl5S+jP98TnEbw+SU3jwLA+kIdxMcjqMuhU
+    m/oWryW4GsoQFqd7Q/AFIAG+b0WA6ZnNQLQkW0f3xJJBH1GXl0vtKHFmdzmFYV3F
+    rHyTxGffDtXCW93sUlaOAIBjyUL32ayF9XEIKufjfqG2d4DYlNQsheM8tihH6caF
+    MRpTE8BlCm5vPmv9ZXKpzrXSjd4THnkc2Zn7Q6Us4RfJ/PM809qmPTRSV3jMKcI+
+    tTZUrDuu3h5Qnv92GBWRH+9hl5QSdZ4hOLU3sy4Z8Beu63kRtFmFL8a7wXqXq1nL
+    bTt9peyNxOI9cNPGHOo6
+    -----END CERTIFICATE-----
+  clusterName: huggerbrindle
+  jx-install-version: 2.0.117
+  kubeProvider: gke
+  projectID: cicd-241813
+  region: ""
+  secretsLocation: vault
+  server: https://34.74.239.173
+  systemVaultName: jx-vault-huggerbrindle
+  zone: us-east1-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
